@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Roman Yosi - Spotify Artist Verified</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+/* HERO */
+
+.hero{
+    height:500px;
+    background:
+    linear-gradient(to bottom,rgba(0,0,0,0.3),#000),
+    url('https://raw.githubusercontent.com/Roman-Yosi/Poto-roman-yosi/main/ChatGPT%20Image%2011%20Mei%202026%2C%2020.58.16.png');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:flex-end;
+    padding:50px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.verify{
+    color:#1DA1F2;
+    font-size:35px;
+}
+
+.hero-content p{
+    color:#ddd;
+    font-size:18px;
+}
+
+/* PROFILE */
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #1DB954;
+}
+
+.bio{
+    max-width:700px;
+}
+
+.bio h2{
+    margin-bottom:15px;
+    color:#1DB954;
+}
+
+.bio p{
+    line-height:1.8;
+    color:#ccc;
+}
+
+/* BUTTONS */
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons a{
+    display:inline-block;
+    margin-right:15px;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    background:#1DB954;
+    transition:0.3s;
+}
+
+.buttons a:hover{
+    background:#18a64d;
+}
+
+/* RELEASES */
+
+.section{
+    padding:40px;
+}
+
+.section h2{
+    margin-bottom:30px;
+    color:#1DB954;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#111;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+}
+
+.status{
+    color:#1DB954;
+    font-weight:bold;
+}
+
+/* SOCIAL */
+
+.social{
+    text-align:center;
+    padding:40px;
+}
+
+.social a{
+    color:#1DB954;
+    margin:10px;
+    text-decoration:none;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+    background:#050505;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+Roman Yosi
+<span class="verify">✔</span>
+</h1>
+
+<p>Official Verified Artist</p>
+
+</div>
+
+</section>
+
+<!-- PROFILE -->
+
+<section class="profile">
+
+<img src="https://raw.githubusercontent.com/Roman-Yosi/Poto-roman-yosi/main/ChatGPT%20Image%2011%20Mei%202026%2C%2020.58.16.png">
+
+<div class="bio">
+
+<h2>Tentang Artis</h2>
+
+<p>
+Roman Yosi adalah musisi independen Indonesia
+dengan gaya musik emotional cinematic,
+alternative pop, dan dark ambient.
+Menghadirkan karya original penuh cerita,
+emosi, dan pengalaman kehidupan nyata.
+</p>
+
+<div class="buttons">
+
+<a href="#">
+Play Music
+</a>
+
+<a href="#">
+Spotify Profile
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- RELEASES -->
+
+<section class="section">
+
+<h2>Rilisan Terbaru</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://i.imgur.com/6Iej2c3.jpg">
+
+<div class="card-content">
+
+<h3>Antara Kamu Dan Aku</h3>
+
+<p>Status:</p>
+
+<p class="status">
+Sedang Ditinjau
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/fY4xY6S.jpg">
+
+<div class="card-content">
+
+<h3>Engkaulah Dewi Sang Penebar</h3>
+
+<p>Status:</p>
+
+<p class="status">
+Sedang Ditinjau
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/4YQZ6xR.jpg">
+
+<div class="card-content">
+
+<h3>Ada Suara Dalam Otak</h3>
+
+<p>Status:</p>
+
+<p class="status">
+Sedang Ditinjau
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://i.imgur.com/F7pG6xN.jpg">
+
+<div class="card-content">
+
+<h3>Ternyata Dia Cinta Tersembunyi</h3>
+
+<p>Status:</p>
+
+<p class="status">
+Sedang Ditinjau
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SOCIAL -->
+
+<section class="social">
+
+<h2>Follow Roman Yosi</h2>
+
+<br>
+
+<a href="https://instagram.com/kromantv1">
+Instagram @kromantv1
+</a>
+
+<br><br>
+
+<a href="https://tiktok.com/@romanyosi">
+TikTok @romanyosi
+</a>
+
+<br><br>
+
+<a href="https://youtube.com/@romanyosi">
+YouTube Roman Yosi
+</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Roman Yosi Records  
+Official Artist Website
+
+</footer>
+
+</body>
+</html>
